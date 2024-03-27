@@ -2,8 +2,8 @@ import { ReactNode } from "react"
 import './MyButton.css'
 
 interface Props{
-    children: ReactNode; //ReacNode - tem retorno
-    onClick: () => void; //void - não tem retorno // (?) serve para quando é opicional
+    children: ReactNode;
+    onClick: () => void;
 }
 
 function MyButton(props: Props){
@@ -12,4 +12,4 @@ function MyButton(props: Props){
     )
 }
 
-export default MyButton
+export default MyButton;
